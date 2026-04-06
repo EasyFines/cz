@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="cs">
+<html lang="cz">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -123,6 +123,10 @@
     /* REVEAL */
     .reveal { opacity: 0; transform: translateY(40px); transition: opacity 0.7s ease, transform 0.7s ease; }
     .reveal.visible { opacity: 1; transform: translateY(0); }
+
+    /* PRIVACY POLICY */
+    .privacy-policy-content p { margin-bottom: 16px; font-size: 0.95rem; line-height: 1.7; color: rgba(255,255,255,0.65); }
+    .privacy-policy-content strong { color: var(--white); font-weight: 600; }
 
     /* RESPONSIVE */
     @media (max-width: 900px) {
@@ -251,23 +255,51 @@
   </div>
 </section>
 
+<section id="ochrana-soukromi" style="background: rgba(255,255,255,0.02); border-top: 1px solid rgba(255,255,255,0.06); padding-bottom: 60px;">
+  <div style="max-width:900px; margin:0 auto;">
+    <p class="section-tag reveal">Právní doložka</p>
+    <h2 class="section-title reveal" style="font-size: clamp(2rem,4vw,3rem);">Zásady ochrany osobních údajů</h2>
+    
+    <div class="privacy-policy-content reveal">
+      <p><strong>1. Úvod</strong><br>
+      Tyto zásady ochrany osobních údajů vysvětlují, jak aplikace EasyFines (dále jen "my") shromažďuje, používá a chrání vaše osobní údaje. Používáním naší aplikace souhlasíte s těmito postupy. Tento dokument slouží také jako oficiální prohlášení pro distribuční platformy Apple App Store a Google Play.</p>
+
+      <p><strong>2. Jaké údaje shromažďujeme</strong><br>
+      Aby aplikace mohla plnit svůj účel, shromažďujeme pouze nezbytně nutné informace. Mezi ně patří:
+      <br>• Identifikační údaje (jméno nebo přezdívka, e-mailová adresa) nutné pro vytvoření uživatelského účtu.
+      <br>• Uživatelský obsah, který sami zadáte, jako jsou názvy týmů, záznamy o udělených pokutách a platbách.</p>
+
+      <p><strong>3. Jak vaše údaje využíváme</strong><br>
+      Získané údaje používáme výhradně k zajištění hlavní funkcionality aplikace – tedy ke správě týmové kasy, synchronizaci dat mezi členy vašeho týmu a odesílání technických upozornění (např. obnova hesla). Vaše data <strong>neprodáváme</strong> žádným třetím stranám ani je nevyužíváme k marketingovým účelům bez vašeho svolení.</p>
+
+      <p><strong>4. Sdílení dat a bezpečnost</strong><br>
+      Veškerá síťová komunikace je šifrována (protokol HTTPS) a data jsou uložena na zabezpečených serverech. K vašim osobním údajům (včetně dluhů v kase) mají přístup pouze členové vašeho týmu, kterým byl udělen přístup prostřednictvím zabezpečené pozvánky.</p>
+
+      <p><strong>5. Vaše práva a smazání účtu</strong><br>
+      V souladu s nařízením GDPR máte právo požadovat přístup ke svým osobním údajům, jejich opravu, nebo kompletní smazání. Pokud si přejete smazat svůj účet a veškerá s ním spojená data, můžete tak učinit přímo v nastavení aplikace, nebo nás kontaktovat na níže uvedené e-mailové adrese. Po smazání účtu jsou vaše osobní data trvale odstraněna z našich databází.</p>
+
+      <p><strong>6. Kontakt</strong><br>
+      Máte-li jakékoli dotazy týkající se těchto zásad nebo zpracování vašich dat, neváhejte se na nás obrátit:
+      <br>E-mail: <a href="mailto:easyfinesapp@gmail.com" style="color: var(--green-accent); text-decoration: none;">easyfinesapp@gmail.com</a></p>
+    </div>
+  </div>
+</section>
+
 <section id="kontakt" style="padding-top:0;padding-bottom:60px">
   <div style="max-width:1200px;margin:0 auto;border-top:1px solid rgba(255,255,255,0.06);padding-top:60px">
     <p class="section-tag reveal">Kontakt</p>
     <h2 class="section-title reveal">Máte otázky?</h2>
     <p class="section-desc reveal" style="margin-top:12px">
-      📧 <a href="mailto:info@easyfines.com" style="color:var(--green-accent);text-decoration:none">info@easyfines.com</a><br/><br/>
+      📧 <a href="mailto:info@easyfines.com" style="color:var(--green-accent);text-decoration:none">easyfinesapp@gmail.com</a><br/><br/>
       📍 Praha, Česká republika
     </p>
   </div>
 </section>
 
 <footer>
-  <span>© 2024 EasyFines. Všechna práva vyhrazena.</span>
+  <span>© 2026 EasyFines. Všechna práva vyhrazena.</span>
   <div class="footer-links">
-    <a href="#">Ochrana osobních údajů</a>
-    <a href="#">Podmínky použití</a>
-    <a href="#">GDPR</a>
+
   </div>
 </footer>
 
