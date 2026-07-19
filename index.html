@@ -74,7 +74,7 @@
     .btn-store-text { display: flex; flex-direction: column; line-height: 1.2; }
     .btn-store-text small { font-size: 0.68rem; font-weight: 400; opacity: 0.7; }
     .btn-store-text strong { font-size: 1rem; }
-    .hero-mockup { position: absolute; right: 40px; top: 50%; transform: translateY(-50%); width: 40%; max-width: 480px; z-index: 1; animation: fadeRight 0.8s 0.3s ease both; }
+    .hero-mockup { position: absolute; right: 100px; top: 50%; transform: translateY(-50%); width: 40%; max-width: 480px; z-index: 1; animation: fadeRight 0.8s 0.3s ease both; }
     .hero-mockup img { width: 100%; display: block; }
     @keyframes fadeUp { from{opacity:0;transform:translateY(30px)} to{opacity:1;transform:translateY(0)} }
     @keyframes fadeRight { from{opacity:0;transform:translateY(-50%) translateX(60px)} to{opacity:1;transform:translateY(-50%) translateX(0)} }
@@ -83,7 +83,7 @@
     .stats { display: flex; justify-content: center; border-top: 1px solid rgba(255,255,255,0.06); border-bottom: 1px solid rgba(255,255,255,0.06); background: rgba(255,255,255,0.02); position: relative; z-index: 2; }
     .stat { flex: 1; text-align: center; padding: 40px 20px; border-right: 1px solid rgba(255,255,255,0.06); }
     .stat:last-child { border-right: none; }
-    .stat-num { font-family: var(--font-display); font-size: 3.2rem; color: var(--green-accent); letter-spacing: 2px; display: block; }
+    .stat-num { font-family: var(--font-body); font-weight: 700; font-size: 3.2rem; color: var(--green-accent); letter-spacing: 2px; display: block; }
     .stat-label { font-size: 0.78rem; letter-spacing: 3px; text-transform: uppercase; color: var(--grey); margin-top: 6px; display: block; }
 
     /* SECTIONS */
@@ -189,8 +189,8 @@
 </section>
 
 <div class="stats">
-  <div class="stat reveal"><span class="stat-num">∞</span><span class="stat-label">Pokut</span></div>
-  <div class="stat reveal" style="transition-delay:.1s"><span class="stat-num">∞</span><span class="stat-label">Hráčů</span></div>
+  <div class="stat reveal"><span class="stat-num">&infin;</span><span class="stat-label">Pokut</span></div>
+  <div class="stat reveal" style="transition-delay:.1s"><span class="stat-num">5+</span><span class="stat-label">Hráčů</span></div>
   <div class="stat reveal" style="transition-delay:.2s"><span class="stat-num">1</span><span class="stat-label">App</span></div>
 </div>
 
